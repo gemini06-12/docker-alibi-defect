@@ -11,4 +11,4 @@ RUN apt-get update && \
 COPY requirements.txt /usr/src/app/requirements.txt
 RUN python3 -m pip install --upgrade pip setuptools && \
     python3 -m pip install -I cloudpickle==1.3 && \
-    python3 -m pip install alibi-detect && \
+    python3 -m pip install alibi-detect
